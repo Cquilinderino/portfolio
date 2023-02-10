@@ -1,0 +1,90 @@
+body { 
+    background-color: #1F1F24;
+    color: #FDFCFE;
+    margin: auto;
+    align-content: center;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+    color: #60F2D1;
+    /* margin-top: 250px; */
+
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+header {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+nav {
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+}
+
+.mainText {
+    margin-bottom: 150px;
+}
+
+.button {
+    background-color: white;
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+#github, a, #resume{
+    background-color: transparent;
+    border-width: 1px;
+    border-color: #60F2D1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #60F2D1;
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin:auto;
+    max-width: 900px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    max-width: 900px;
+    padding-top: 550px;
+    margin: auto;
+}
+
+#spacer {
+    margin: 250px;
+}
