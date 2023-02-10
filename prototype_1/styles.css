@@ -55,6 +55,11 @@ footer {
     color: white;
 }
 
+.inlineTitle {
+    display: flex;
+    align-items: center;
+}
+
 #github, a, #resume{
     background-color: transparent;
     border-width: 1px;
@@ -75,6 +80,10 @@ footer {
     max-width: 900px;
 }
 
+#contactDiv {
+    text-align: center;
+}
+
 #container {
     display: flex;
     justify-content: center;
@@ -87,4 +96,15 @@ footer {
 
 #spacer {
     margin: 250px;
+}
+
+#aboutMe {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+
+hr {
+    flex-grow: 1;
+    width: 80%;
 }
